@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 60px 20%;
+  min-height: calc(100vh - 174px);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 60px 30px;
+  }
+}
